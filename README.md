@@ -27,7 +27,7 @@ _Screenshots are included in the downloadable portfolio package; the application
 
 ## Try it
 
-**In a web browser:** Open [`index.html`](index.html) or visit the GitHub Pages demo once the repository owner enables it.
+**In a web browser:** Open [`index.html`](index.html) or visit the GitHub Pages demo.
 
 **As an offline file:** Download the project, then open `index.html` in a browser. On certain mobile browsers, local-file storage is restricted or unreliable; the hosted version tends to behave more consistently on a given device.
 
@@ -77,12 +77,6 @@ susu-the-circle/
 
 No build command or API credentials are required.
 
-## Portfolio integration
-
-- The source includes `portfolio/SusuProjectCard.jsx`; obtain the accompanying CSS and screenshots from the downloadable portfolio ZIP, then add them to your React/Vite site.
-- Copy the package's `portfolio/public/projects/susu/` images into **your site's** `public/projects/susu/` directory.
-- Render `<SusuProjectCard demoUrl="YOUR_REAL_DEMO_URL" githubUrl="YOUR_REAL_REPO_URL" />` with actual published links. Omit either prop until that link exists.
-- The longer write-up is in [`portfolio/CASE_STUDY.md`](portfolio/CASE_STUDY.md).
 
 ## Design decisions and limits
 
