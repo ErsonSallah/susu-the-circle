@@ -92,4 +92,4 @@ No build command or API credentials are required.
 
 Product direction: **Vaultborn Labs / Jefferson Sallah**. Developed through an AI-assisted prototyping workflow.
 
-**License:** No reuse license has been selected or granted yet. Public GitHub visibility alone is not an open-source license. The project owner can choose one before inviting external contributions or redistribution.
+**License:** No reuse license has been selected or granted yet. Public GitHub visibility 
