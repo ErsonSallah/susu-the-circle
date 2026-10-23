@@ -6,7 +6,7 @@ Built around *susu*, a community savings practice: members contribute the same a
 
 > **V1 prototype:** SUSU is a tracking and scheduling tool. It does not hold funds, connect to bank accounts, make transfers, validate incoming payments, or synchronize across participants' devices.
 
-![SUSU mobile dashboard, light green theme](assets/home-light.png)
+_Screenshots are included in the downloadable portfolio package; the application itself is available in `index.html`._
 
 ## Features
 
@@ -23,7 +23,7 @@ Built around *susu*, a community savings practice: members contribute the same a
 - **Dependencies:** none. Pure HTML, CSS, and JavaScript. No framework, build step, backend, CDN, or Obsidian plugin.
 - **Device:** mobile-first responsive interface; also works in desktop browsers.
 
-![SUSU dark theme](assets/home-dark.png)
+
 
 ## Try it
 
@@ -51,7 +51,6 @@ Start with sample members **Person A–E**, USD $20 per person per round, weekly
 ```text
 susu-the-circle/
 ├── index.html                      # Static web app / GitHub Pages entry
-├── assets/                         # Demo screenshots (sample data)
 ├── obsidian-vault/                 # Independent, offline vault distribution
 │   ├── SUSU.html
 │   ├── 00 START HERE.md
@@ -63,8 +62,8 @@ susu-the-circle/
 ├── portfolio/
 │   ├── CASE_STUDY.md
 │   ├── SusuProjectCard.jsx         # Optional React/Vite portfolio component
-│   ├── SusuProjectCard.css
-│   └── public/projects/susu/       # Copy images to your site's public folder
+│   ├── SusuProjectCard.css          # Available in the downloadable package
+│   └── public/projects/susu/       # Available in the downloadable package
 └── README.md
 ```
 
@@ -80,8 +79,8 @@ No build command or API credentials are required.
 
 ## Portfolio integration
 
-- Copy `portfolio/SusuProjectCard.jsx` and `portfolio/SusuProjectCard.css` into your React/Vite site.
-- Copy the images from `portfolio/public/projects/susu/` into **your site's** `public/projects/susu/` directory.
+- The source includes `portfolio/SusuProjectCard.jsx`; obtain the accompanying CSS and screenshots from the downloadable portfolio ZIP, then add them to your React/Vite site.
+- Copy the package's `portfolio/public/projects/susu/` images into **your site's** `public/projects/susu/` directory.
 - Render `<SusuProjectCard demoUrl="YOUR_REAL_DEMO_URL" githubUrl="YOUR_REAL_REPO_URL" />` with actual published links. Omit either prop until that link exists.
 - The longer write-up is in [`portfolio/CASE_STUDY.md`](portfolio/CASE_STUDY.md).
 
