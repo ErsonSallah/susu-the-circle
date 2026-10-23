@@ -8,4 +8,4 @@ SUSU V1 is a local, browser-based financial activity tracker—not a bank or pay
 - Confirm received funds in a separate trusted channel before ticking a payment.
 - If you discover a security issue, contact the repository maintainer privately, rather than posting real user data in a public issue.
 
-This is a prototype, not a security certification or independent audit.
+This is a working prototype, not a security certification or independent audit.
